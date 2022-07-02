@@ -1,1 +1,2 @@
 # landing-page
+I have reached the end of of the Flexbox section of the Foundations course, and the last task is to create a website from scratch. This repository contains my attempt to complete this task.

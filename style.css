@@ -1,0 +1,129 @@
+body {
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.hero, footer {    
+    background: #1F2937;
+}
+
+.hero {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 195px;
+    padding-right: 195px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    color: white;
+    margin-top: 100px
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.hero-1 {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.call-to-action, button {
+    background: #3882f6
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin: 43px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 100px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 330px;
+    padding-right: 330px;
+    display: flex;
+    flex-direction: center;
+}
+
+.call-to-action {
+    display: flex;
+    margin-left: 195px;
+    margin-right: 195px;
+    border-radius: 7px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 24px;
+    gap: 85px;
+}
+
+.call-to-action button {
+    border: 2px solid white;
+}
+
+.placeholder {
+    background: ;
+    padding: 80px;
+    color: white;
+}
+
+button {
+    color: white;
+    font-size: 17px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: transparent;
+}
+
+.subtexts {
+    padding-left: 300px;
+    padding-right: 300px;
+}
