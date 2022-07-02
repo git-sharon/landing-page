@@ -11,21 +11,26 @@ body {
 
 .hero {
     padding-top: 20px;
-    padding-bottom: 100px;
-    padding-left: 195px;
+    padding-bottom: 130px;
+    padding-left: 210px;
     padding-right: 195px;
 }
 
 footer {
+    color: white;
+    font-size: 17px;
+    font-weight: 250;
+    letter-spacing: 0.6px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 45px;
-    color: white;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    padding-left: 30px;
     margin-top: 100px
 }
 
-ul {
+.top ul {
     display: flex;
     list-style: none;
     margin: 0;
@@ -65,51 +70,125 @@ a {
     background: #3882f6
 }
 
+.subtexts {
+    margin-left: 12px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 22px;
+}
+
+.subtexts ul {
+    display: flex;
+    list-style: none;
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    gap: 51px
+    
+}
+
 .random-info {
-    font-size: 36px;
+    font-size: 35px;
     font-weight: bold;
     color: #1F2937;
     display: flex;
     justify-content: center;
-    margin: 43px;
+    margin-top: 46px;
+    margin-bottom: 48px;
+    margin-left: 12px;
+}
+
+.boxes {
+    display: flex;
+    gap: 49px;
+}
+
+.box {
+    height: 162px;
+    width: 180px;
+    border: 4px solid #3882f6;
+    border-radius: 17px;
+    margin-bottom: 7px;
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
-    font-weight: lighter;
+    font-weight: 245;
     font-size: 36px;
+    letter-spacing: 1px;
     color: #1F2937;
     margin: 100px auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 330px;
-    padding-right: 330px;
-    display: flex;
-    flex-direction: center;
+    padding-top: 128px;
+    padding-bottom: 102px;
+    padding-left: 329px;
+    padding-right: 290px;
+}
+
+.thor {
+    text-align: end;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.1px;
+    margin-right: 45px;
+    margin-top: 0px;
 }
 
 .call-to-action {
     display: flex;
-    margin-left: 195px;
-    margin-right: 195px;
+    margin-left: 193px;
+    margin-right: 207px;
     border-radius: 7px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 122px;
+    padding-right: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
     color: white;
-    font-size: 24px;
     gap: 85px;
+}
+
+.action-text {
+    margin-right: 75px;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sign-up {
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 2px;
+    letter-spacing: 00.9px;
 }
 
 .call-to-action button {
     border: 2px solid white;
+    margin-top: 10px;
+}
+
+.content {
+  display: flex;
+}
+
+.text {
+    width: 44%;
+    margin-right: 60px;
 }
 
 .placeholder {
-    background: ;
-    padding: 80px;
+    height: 235px;
+    width: 520px;
+    background: #6e737d;
     color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -121,9 +200,5 @@ button {
     padding-top: 7px;
     padding-bottom: 7px;
     border: transparent;
-}
-
-.subtexts {
-    padding-left: 300px;
-    padding-right: 300px;
+    margin-top: 15px;
 }
